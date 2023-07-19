@@ -1,0 +1,35 @@
+.G{
+    color: rgb(236, 127, 143);
+}
+.nav-head{
+    display: flex;
+justify-content:space-between;
+background-color:rgb(254, 252, 252);
+align-items: center;
+height: 80px;
+}
+.logo{
+margin-bottom: 30px;
+text-align: center;
+display: flex;
+}
+.about{
+    display: flex;
+    gap: 20px;
+    height: 100px;
+    align-items: center;
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+}
+.follow{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    background-color: silver;
+    height: 50px;
+    width: 180px;
+    border-radius: 5px;
+    padding-left: 15px;
+    
+}
