@@ -196,3 +196,25 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+.min-logo{
+   display: flex;
+   gap: 50px;
+   margin-left: 300px;
+   margin-right: 300px;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   margin-top: 40px;
+}
+.image-logo{
+    border:3px solid rgb(205, 198, 198);
+    width:240px;
+    height:60px;
+    display: flex;
+    border-radius:25px;
+    background-color:rgb(247, 245, 243);
+
+}
+.image-logo:hover{
+    background-color: silver;
+    box-shadow: 10px solid pink;
+}
