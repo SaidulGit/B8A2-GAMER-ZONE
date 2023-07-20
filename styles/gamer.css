@@ -150,3 +150,49 @@ line-height: normal;
 .picture-text:hover{
     box-shadow: slategrey solid 2px;
 }
+.middle{
+    height: 450px;
+    width: 1000px;
+    margin-left: 1000px;
+    margin-right:300px;
+    border:3px solid teal;
+    display: flex;
+    gap:125px;
+}
+.bg-new{
+    height:400px;
+    width: 450px;
+    background-image: url('../images/Rectangle\ 55.png');
+
+}
+#small{
+    position: relative;
+    right: 70px;
+    top: 250px;
+}
+.text-new{
+    text-align: center;
+}
+.download{
+    text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+}
+.games-onlin{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.instant{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
