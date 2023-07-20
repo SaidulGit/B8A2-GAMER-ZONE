@@ -102,3 +102,51 @@ margin-right: -15px;
 #play{
     margin-right:100px;
 }
+.main{
+    margin: 200px;
+}
+.games{
+    color: #0B0223;
+text-align:center;
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.Funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.p{
+    text-align: center;
+}
+#bg-image{
+    background-image: url('../images/Rectangle\ 7.png');
+    width: 280px;
+    height: 280px;
+}
+.online-card{
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+#mini{
+    position: relative;
+    left: 110px;
+    top: 125px;
+}
+.picture-text:hover{
+    box-shadow: slategrey solid 2px;
+}
